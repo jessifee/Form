@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div id="login">Log in</div>
+      <form>
+        <div class="form-container">
+          <div class="field">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Jane Doe"
+              required
+              minlength="2"
+            />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              i
+              placeholder="janedoe@gmail.com"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="age">Alter</label>
+            <input
+              type="number"
+              id="age"
+              required
+              placeholder="21"
+              min="1"
+              max="120"
+            />
+          </div>
+          <div class="field">
+            <label for="zip">PLZ</label>
+            <input
+              type="number"
+              id="zip"
+              required
+              placeholder="10435"
+              min="10000"
+              max="99999"
+            />
+          </div>
+          <div class="field">
+            <label for="password">Passwort</label>
+            <input type="text" id="password1" value="" required minlength="6" />
+          </div>
+          <div class="field">
+            <label for="password2">Passwort Bestätigung</label>
+            <input type="text" id="password2" value="" required />
+          </div>
+        </div>
+        <div id="btn-container">
+          <button id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

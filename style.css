@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+  font-family: mukta mahee;
+  font-size: 25px;
+  background-color: blanchedalmond;
+  color: blanchedalmond;
+}
+
+.form {
+  padding: 15px;
+  margin: 100px auto;
+  background-color: brown;
+  width: 500px;
+}
+
+#login {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: blanchedalmond;
+}
+
+.field {
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  font-family: mukta mahee;
+  font-size: 20px;
+  font-style: italic;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+input:invalid {
+  border: 3px solid grey;
+  box-shadow: 5px 5px 5px rgb(90, 90, 90);
+}
+
+input:valid {
+  border: 2px solid blanchedalmond;
+  box-shadow: 3px 3px 3px blanchedalmond;
+}
+
+#submit {
+  font-style: mukta mahee;
+  border-radius: 10px;
+  border-style: none;
+  color: brown;
+  background-color: blanchedalmond;
+  font-size: 20px;
+  font-weight: bold;
+  width: 110px;
+  margin-left: 350px;
+}
